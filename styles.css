@@ -176,7 +176,6 @@ body {
 .logo-img img {
   width: clamp(120px, 28vw, 200px);
   height: auto;
-  mix-blend-mode: lighten;
   filter: drop-shadow(0 0 20px rgba(212, 175, 111, 0.3));
 }
 
