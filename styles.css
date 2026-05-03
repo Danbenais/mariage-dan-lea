@@ -130,7 +130,7 @@ body {
   z-index: 2;
   max-width: var(--container-max);
   margin: 0 auto;
-  padding: 70px 24px 60px;
+  padding: 30px 24px 60px;
 }
 
 /* ============================================
