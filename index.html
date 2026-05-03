@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a2540" />
+  <title>Dan & Léa — Mazal Tov</title>
+  <meta name="description" content="Merci d'avoir confirmé votre présence au mariage de Dan & Léa, le 2 juin 2026." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dan & Léa — 02.06.2026" />
+  <meta property="og:description" content="Le mariage de Dan & Léa — Mardi 2 juin 2026" />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Italianno&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Animated background layers -->
+  <div class="bg-layer bg-gradient" aria-hidden="true"></div>
+  <div class="bg-layer bg-grain" aria-hidden="true"></div>
+  <div class="bg-layer bg-glow" aria-hidden="true"></div>
+
+  <!-- Floating particles -->
+  <div class="particles" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <main class="container">
+
+    <!-- Header -->
+    <header class="hero">
+      <div class="hero-ornament" aria-hidden="true">
+        <svg viewBox="0 0 120 20" xmlns="http://www.w3.org/2000/svg">
+          <line x1="0" y1="10" x2="48" y2="10" stroke="currentColor" stroke-width="0.5"/>
+          <circle cx="60" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="0.6"/>
+          <circle cx="60" cy="10" r="0.8" fill="currentColor"/>
+          <line x1="72" y1="10" x2="120" y2="10" stroke="currentColor" stroke-width="0.5"/>
+        </svg>
+      </div>
+
+      <p class="hero-eyebrow">Merci pour votre réponse</p>
+
+      <div class="monogram" aria-hidden="true">
+        <span class="monogram-letter monogram-d">D</span>
+        <span class="monogram-amp">&amp;</span>
+        <span class="monogram-letter monogram-l">L</span>
+      </div>
+
+      <h1 class="hero-title">
+        <span class="name-line">Dan Moshé</span>
+        <span class="name-amp">&amp;</span>
+        <span class="name-line">Léa Néhama</span>
+      </h1>
+
+      <div class="hero-meta">
+        <p class="hero-date">Mardi 2 Juin 2026</p>
+        <p class="hero-hebrew" lang="he" dir="rtl">י״ז סיון תשפ״ו</p>
+      </div>
+
+      <p class="hero-message">
+        Votre présence à nos côtés sera notre plus belle bénédiction.<br/>
+        En attendant le grand jour, voici quelques informations utiles.
+      </p>
+    </header>
+
+    <!-- Cards -->
+    <section class="cards" aria-label="Informations pratiques">
+
+      <!-- Card 1: Calendar -->
+      <article class="card" data-card="agenda">
+        <div class="card-number">01</div>
+        <div class="card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+            <rect x="3" y="5" width="18" height="16" rx="1.5"/>
+            <line x1="3" y1="10" x2="21" y2="10"/>
+            <line x1="8" y1="3" x2="8" y2="7"/>
+            <line x1="16" y1="3" x2="16" y2="7"/>
+            <circle cx="8" cy="14.5" r="0.9" fill="currentColor"/>
+            <circle cx="12" cy="14.5" r="0.9" fill="currentColor"/>
+            <circle cx="16" cy="14.5" r="0.9" fill="currentColor"/>
+          </svg>
+        </div>
+        <h2 class="card-title">Ajouter à mon agenda</h2>
+        <p class="card-desc">Pour ne rien oublier de cette journée si spéciale.</p>
+
+        <button class="card-btn" data-toggle="agenda-options" aria-expanded="false" aria-controls="agenda-options">
+          <span>Choisir mon agenda</span>
+          <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </button>
+
+        <div class="card-options" id="agenda-options" hidden>
+          <a href="#" class="option" data-action="google-calendar">
+            <span class="option-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/></svg>
+            </span>
+            <span>Google Calendar</span>
+            <span class="option-arrow">→</span>
+          </a>
+          <a href="event.ics" class="option" download="Mariage-Dan-Lea.ics">
+            <span class="option-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 1H7a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3zm-5 21a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm6-4H6V5h12v13z"/></svg>
+            </span>
+            <span>Apple Calendar (.ics)</span>
+            <span class="option-arrow">→</span>
+          </a>
+          <a href="event.ics" class="option" download="Mariage-Dan-Lea.ics">
+            <span class="option-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21 4H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-1 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z"/></svg>
+            </span>
+            <span>Outlook (.ics)</span>
+            <span class="option-arrow">→</span>
+          </a>
+          <a href="#" class="option" data-action="yahoo-calendar">
+            <span class="option-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="16" rx="1.5"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </span>
+            <span>Autre (Yahoo, etc.)</span>
+            <span class="option-arrow">→</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 2: Itinerary -->
+      <article class="card" data-card="trajet">
+        <div class="card-number">02</div>
+        <div class="card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+            <path d="M12 2c-4.4 0-8 3.6-8 8 0 5.4 7 11.5 7.3 11.7.2.2.5.3.7.3s.5-.1.7-.3C13 21.5 20 15.4 20 10c0-4.4-3.6-8-8-8z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+        </div>
+        <h2 class="card-title">Itinéraire</h2>
+        <p class="card-desc">
+          Salons Palace de Villiers<br/>
+          <span class="card-address">12 bis Avenue des Entrepreneurs</span><br/>
+          <span class="card-address">95400 Villiers-le-Bel</span>
+        </p>
+
+        <div class="card-buttons-row">
+          <a href="https://waze.com/ul?q=12%20bis%20Avenue%20des%20Entrepreneurs%2C%2095400%20Villiers-le-Bel&navigate=yes" target="_blank" rel="noopener" class="card-btn card-btn-half">
+            <span>Waze</span>
+            <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </a>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=12+bis+Avenue+des+Entrepreneurs,+95400+Villiers-le-Bel" target="_blank" rel="noopener" class="card-btn card-btn-half">
+            <span>Google Maps</span>
+            <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 3: Gift -->
+      <article class="card" data-card="cadeau">
+        <div class="card-number">03</div>
+        <div class="card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+            <rect x="3" y="8" width="18" height="13" rx="0.5"/>
+            <line x1="3" y1="13" x2="21" y2="13"/>
+            <line x1="12" y1="8" x2="12" y2="21"/>
+            <path d="M7.5 8c-1.4 0-2.5-1.1-2.5-2.5S6.1 3 7.5 3c2 0 4.5 5 4.5 5s-2.5 0-4.5 0z"/>
+            <path d="M16.5 8c1.4 0 2.5-1.1 2.5-2.5S17.9 3 16.5 3c-2 0-4.5 5-4.5 5s2.5 0 4.5 0z"/>
+          </svg>
+        </div>
+        <h2 class="card-title">Faire un cadeau</h2>
+        <p class="card-desc">Votre geste, quel qu'il soit, comptera énormément pour nous. Toda raba !</p>
+
+        <a href="#" class="card-btn" id="wishlist-link" target="_blank" rel="noopener">
+          <span>Voir la Liste de Mariage</span>
+          <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <line x1="7" y1="17" x2="17" y2="7"/>
+            <polyline points="7 7 17 7 17 17"/>
+          </svg>
+        </a>
+        <p class="card-hint">Liste Amazon — bientôt disponible</p>
+      </article>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-ornament" aria-hidden="true">
+        <svg viewBox="0 0 200 24" xmlns="http://www.w3.org/2000/svg">
+          <line x1="0" y1="12" x2="80" y2="12" stroke="currentColor" stroke-width="0.5"/>
+          <path d="M 90 12 Q 100 4 110 12 Q 100 20 90 12 Z" fill="none" stroke="currentColor" stroke-width="0.6"/>
+          <line x1="120" y1="12" x2="200" y2="12" stroke="currentColor" stroke-width="0.5"/>
+        </svg>
+      </div>
+      <p class="footer-quote" lang="he" dir="rtl">קוֹל שָׂשׂוֹן וְקוֹל שִׂמְחָה קוֹל חָתָן וְקוֹל כַּלָּה</p>
+      <p class="footer-translation"><em>« Une voix de joie et d'allégresse, la voix du marié et de la mariée »</em></p>
+      <p class="footer-credit">Avec amour, Famille Benais &amp; Famille Zana</p>
+    </footer>
+
+  </main>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
