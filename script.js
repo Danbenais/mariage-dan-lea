@@ -14,8 +14,7 @@ const EVENT = {
   end:   new Date("2026-06-03T00:00:00+02:00"),
 };
 
-// Wishlist URL — replace with the real Amazon Wishlist URL when ready
-const WISHLIST_URL = "https://www.amazon.fr/hz/wishlist/ls/PLACEHOLDER";
+const WISHLIST_URL = "https://easywishlist.app/w/PZnsbUos/my-wishlist";
 
 // ============================================
 // HELPERS
