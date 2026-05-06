@@ -7,10 +7,10 @@
 // ============================================
 const EVENT = {
   title: "Mariage de Dan & Léa",
-  description: "Mariage de Dan Moshé & Léa Néhama. Kabbalat Panim à 17h, 'Houpa à 18h, suivi de la réception.",
+  description: "Mariage de Dan Moshé & Léa Néhama. Kabbalat Panim à 16h, 'Houpa à 17h, suivi de la réception.",
   location: "Salons Palace de Villiers, 12 bis Avenue des Entrepreneurs, 95400 Villiers-le-Bel, France",
-  // Local time: 2 June 2026, 17:00 → 3 June 2026, 00:00 (Paris)
-  start: new Date("2026-06-02T17:00:00+02:00"),
+  // Local time: 2 June 2026, 16:00 → 3 June 2026, 00:00 (Paris)
+  start: new Date("2026-06-02T16:00:00+02:00"),
   end:   new Date("2026-06-03T00:00:00+02:00"),
 };
 

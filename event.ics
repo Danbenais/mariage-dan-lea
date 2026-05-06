@@ -23,10 +23,10 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:mariage-dan-lea-20260602@mariage-dan-lea
 DTSTAMP:20260101T000000Z
-DTSTART;TZID=Europe/Paris:20260602T170000
+DTSTART;TZID=Europe/Paris:20260602T160000
 DTEND;TZID=Europe/Paris:20260603T000000
 SUMMARY:Mariage de Dan & Léa
-DESCRIPTION:Mariage de Dan Moshé & Léa Néhama.\nKabbalat Panim - Accueil des invités à 17h\n'Houpa à 18h\nRéception à suivre.\n\nMazal Tov !
+DESCRIPTION:Mariage de Dan Moshé & Léa Néhama.\nKabbalat Panim - Accueil des invités à 16h\n'Houpa à 17h\nRéception à suivre.\n\nMazal Tov !
 LOCATION:Salons Palace de Villiers\, 12 bis Avenue des Entrepreneurs\, 95400 Villiers-le-Bel\, France
 STATUS:CONFIRMED
 TRANSP:OPAQUE
